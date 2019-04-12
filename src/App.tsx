@@ -16,7 +16,7 @@ import '@ionic/core/css/core.css';
 import '@ionic/core/css/ionic.bundle.css';
 import Tabs from './pages/Tabs/Tabs';
 
-class App extends Component {
+class App extends Component<any, any> {
   render() {
     return (
       <Router>
